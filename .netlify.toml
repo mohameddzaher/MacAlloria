@@ -1,0 +1,4 @@
+[build]
+  base    = "macalloria_project"
+  publish = "dist"
+  command = "npm run build"
