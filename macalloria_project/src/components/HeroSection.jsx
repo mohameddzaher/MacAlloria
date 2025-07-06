@@ -38,7 +38,7 @@ export default function HeroSection() {
         {/* Social Icons */}
         <div className="flex gap-4 text-md mt-6 ml-7">
           <a
-            href="https://www.facebook.com/mohamed.zaher.589100/"
+            href="https://www.facebook.com/Mohamedzaherrr"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-700"
@@ -54,7 +54,7 @@ export default function HeroSection() {
             <FaInstagram />
           </a>
           <a
-            href="#"
+            href="https://www.tiktok.com/@mohamedd.zaher"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-700"

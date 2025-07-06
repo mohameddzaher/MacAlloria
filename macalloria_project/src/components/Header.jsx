@@ -27,13 +27,13 @@ export default function Header() {
           FREE SHIPPING FOR ORDERS OVER 3 PIECES.
         </h6>
         <div className="flex gap-3 text-sm">
-          <a className=" hover:text-red-300" href="https://www.facebook.com/mohamed.zaher.589100/" target="_blank" rel="noopener noreferrer">
+          <a className=" hover:text-red-300" href="https://www.facebook.com/Mohamedzaherrr" target="_blank" rel="noopener noreferrer">
             <FaFacebook />
           </a>
           <a className=" hover:text-red-300" href="https://www.instagram.com/mohamedd.zaher/" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
-          <a className="hover:text-red-300" href="#" target="_blank" rel="noopener noreferrer">
+          <a className="hover:text-red-300" href="https://www.tiktok.com/@mohamedd.zaher" target="_blank" rel="noopener noreferrer">
             <FaTiktok />
           </a>
         </div>
