@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from "react";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
@@ -71,7 +70,7 @@ export default function Header() {
           <ul className="flex flex-col items-center gap-4 py-4 text-sm font-medium text-gray-800">
             <NavItem to="/" text="Home" location={location} />
             <NavItem to="/products" text="Products" location={location} />
-            <NavItem to="#about" text="About us" location={location} />
+            <NavItem to="/about" text="About us" location={location} />
             <NavItem to="/contact" text="Contact" location={location} />
           </ul>
         </div>
