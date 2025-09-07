@@ -1,8 +1,6 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
-import jacketImg from "../assets/bg2.jpg";
-import sneakersImg from "../assets/bg2.jpg";
-import backpackImg from "../assets/bg2.jpg";
+
 import bgImage from "../assets/bg4.jpg"; // غيّر الصورة دي على حسب اللي عندك
 
 export default function FeaturedProducts() {
@@ -10,19 +8,19 @@ export default function FeaturedProducts() {
     {
       id: 1,
       name: "Classic Jacket",
-      image: jacketImg,
+      image: "https://drive.google.com/thumbnail?id=1cccP6kK8v3Po0WOGoXOR1cO7ysimDnUk&sz=w1000",
       rating: 5,
     },
     {
       id: 2,
       name: "Stylish Sneakers",
-      image: sneakersImg,
+      image: "https://drive.google.com/thumbnail?id=1Wfc4VswEppzHQGVIbOHKmFMYJDSui2I3&sz=w1000",
       rating: 5,
     },
     {
       id: 3,
       name: "Premium Backpack",
-      image: backpackImg,
+      image: "https://drive.google.com/thumbnail?id=1G1WahhF3gQdPfb42sIhJyAFZJfV4LrOQ&sz=w1000",
       rating: 5,
     },
   ];
