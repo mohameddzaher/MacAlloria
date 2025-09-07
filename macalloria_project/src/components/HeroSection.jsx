@@ -74,24 +74,24 @@ import {
   FaInstagram,
   FaTiktok,
 } from "react-icons/fa";
-import bgVideo from "../assets/vdddddddddd.mp4";
 
 export default function HeroSection() {
   return (
     <section className="relative w-full h-screen overflow-hidden">
-      {/* Background Video */}
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        src={bgVideo}
-        autoPlay
-        loop
-        muted
-        playsInline
-        preload="auto" // تحميل الفيديو مباشرةً عند تحميل الصفحة
-      >
-        <source src={bgVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      {/* Vimeo Background Video */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+        <iframe
+          src="https://player.vimeo.com/video/1116478609?autoplay=1&loop=1&muted=1&background=1"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+          className="absolute top-1/2 left-1/2 min-w-full min-h-full"
+          style={{
+            transform: "translate(-50%, -50%) scale(1.3)", // تكبير شوية علشان يملأ الطول
+            objectFit: "cover",
+          }}
+        ></iframe>
+      </div>
 
       {/* Dark Overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-black/40 z-10"></div>
@@ -103,14 +103,15 @@ export default function HeroSection() {
           Agricultural Solutions
         </h1>
         <p className="text-md mb-6 text-gray-400 drop-shadow-md">
-          Explore our advanced tools & get expert support <br/> with every purchase.
+          Explore our advanced tools & get expert support <br /> with every
+          purchase.
         </p>
         <Link
-  to="/products"
-  className="flex items-center gap-2 bg-green-900 hover:bg-green-900 px-8 hover:px-10 py-2 rounded-xl text-white text-sm transition-all duration-300 ease-in-out"
->
-  Shop Now <FaArrowRight />
-</Link>
+          to="/products"
+          className="flex items-center gap-2 bg-green-900 hover:bg-green-900 px-8 hover:px-10 py-2 rounded-xl text-white text-sm transition-all duration-300 ease-in-out"
+        >
+          Shop Now <FaArrowRight />
+        </Link>
 
         {/* Social Icons */}
         <div className="flex gap-4 text-md mt-6 ml-7">
