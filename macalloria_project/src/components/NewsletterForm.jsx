@@ -33,7 +33,7 @@ const NewsletterForm = () => {
         />
         <button
           type="submit"
-          className="bg-[#03261d] text-white px-6 py-3 rounded-xl hover:bg-green-900 transition-all tracking-wide"
+          className="bg-green-900 text-white px-6 py-3 rounded-xl hover:bg-green-900 transition-all tracking-wide"
         >
           Subscribe
         </button>

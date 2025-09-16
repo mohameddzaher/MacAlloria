@@ -74,7 +74,7 @@ export default function FeaturedProducts() {
                 <h3 className="text-xs font-semibold text-white mb-3">
                   {product.name}
                 </h3>
-                <button className="text-[9px] px-3 py-1 border border-white text-white rounded-lg hover:bg-white hover:text-black transition duration-200">
+                <button className="text-[9px] px-3 py-1 border border-white text-white rounded-lg hover:bg-green-900 hover:text-white transition duration-200">
                   View Product
                 </button>
               </div>
@@ -86,7 +86,7 @@ export default function FeaturedProducts() {
         <div className="mt-6">
           <a
             href="/products"
-            className="text-xs text-white border border-white px-4 py-1.5 rounded-lg hover:bg-white hover:text-black transition duration-200"
+            className="bg-green-900 text-xs text-white  px-5 py-2.5 rounded-lg hover:px-8 transition-all duration-500 ease-in-out"
           >
             View All Products
           </a>

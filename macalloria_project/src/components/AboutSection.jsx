@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImage from '../assets/bg.jpg'; // بدّل المسار حسب مكان الصورة
+import bgImage from '../assets/asian.jpg';
 
 const AboutSection = () => {
   return (
@@ -8,7 +8,7 @@ const AboutSection = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="absolute inset-0 bg-black/60"></div>
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 py-18">
@@ -18,7 +18,7 @@ const AboutSection = () => {
           We’re always here to answer your questions and support your growth.
         </p>
         <button
-          className="mt-8 border border-white px-6 py-2 rounded-sm text-white transition-all duration-200 hover:bg-white hover:text-[#03261d] hover:px-8"
+          className="mt-8 border border-white px-6 py-2 rounded-lg text-white transition-all duration-200 hover:bg-green-900 hover:text-white hover:px-8"
         >
           About Us
         </button>

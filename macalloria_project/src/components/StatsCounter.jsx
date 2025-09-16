@@ -1,5 +1,5 @@
 import React from 'react';
-import statsImage from '../assets/bg.jpg'; // ✨ غير الصورة حسب الحاجة
+import statsImage from '../assets/bg7.png'; // ✨ غير الصورة حسب الحاجة
 
 const stats = [
   { label: 'Years of Experience', value: 12 },
