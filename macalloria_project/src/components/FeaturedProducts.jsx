@@ -8,19 +8,19 @@ export default function FeaturedProducts() {
     {
       id: 1,
       name: "Classic Jacket",
-      image: "https://drive.google.com/thumbnail?id=1cccP6kK8v3Po0WOGoXOR1cO7ysimDnUk&sz=w1000",
+      image: "https://corsproxy.io/?https://drive.google.com/uc?id=1Vjmn2QCTIINWvI30l7FvZSTwvzIt-vPK&export=download",
       rating: 5,
     },
     {
       id: 2,
       name: "Stylish Sneakers",
-      image: "https://drive.google.com/thumbnail?id=1Wfc4VswEppzHQGVIbOHKmFMYJDSui2I3&sz=w1000",
+      image: "https://corsproxy.io/?https://drive.google.com/uc?id=1tBQsV3xZTEikMs20UtGKGxPA_hpnHR6b&export=download",
       rating: 5,
     },
     {
       id: 3,
       name: "Premium Backpack",
-      image: "https://drive.google.com/thumbnail?id=1G1WahhF3gQdPfb42sIhJyAFZJfV4LrOQ&sz=w1000",
+      image: "https://corsproxy.io/?https://drive.google.com/uc?id=1Ua58rifeMlS1wiAXR48XP5cev8w1DoKo&export=download",
       rating: 5,
     },
   ];

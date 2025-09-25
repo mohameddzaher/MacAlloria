@@ -30,7 +30,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-20 flex flex-col justify-center items-start h-full px-6 sm:px-12 text-white max-w-xl p-4 sm:p-8 m-4 sm:m-8">
         <h1 className="text-xl sm:text-2xl font-bold leading-tight mb-4 drop-shadow-lg">
-          Grow Smarter with <span className="text-red-900">Modern</span>{" "}
+          Grow Smarterrrrr with <span className="text-red-900">Modern</span>{" "}
           Agricultural Solutions
         </h1>
         <p className="text-sm sm:text-md mb-6 text-gray-400 drop-shadow-md">
