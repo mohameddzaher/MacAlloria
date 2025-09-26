@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImage from '../assets/asian.jpg';
+import bgImage from '../assets/new1.jpeg';
 
 const AboutSection = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import img1 from '../assets/6177846.jpg';
-import img2 from '../assets/i.jpeg';
-import img3 from '../assets/asian.jpg';
+import img1 from '../assets/new3.jpeg';
+import img2 from '../assets/new2.jpeg';
+import img3 from '../assets/new1.jpeg';
 export default function FeatureHighlight() {
   return (
     <section className="bg-gray-900 text-white py-12 px-4 md:px-10">
