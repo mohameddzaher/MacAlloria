@@ -3,24 +3,28 @@ import { FaStar } from "react-icons/fa";
 
 import bgImage from "../assets/bg4.jpg"; // غيّر الصورة دي على حسب اللي عندك
 
+import firstImg from "../assets/HAND PUSH TYPE.png";
+import secondImg from "../assets/1.png";
+import thirdImg from "../assets/Vita Serisi Asılır Tip Turbo Atomizer2.png";
+
 export default function FeaturedProducts() {
   const products = [
     {
       id: 1,
       name: "Classic Jacket",
-      image: "https://corsproxy.io/?https://drive.google.com/uc?id=1Vjmn2QCTIINWvI30l7FvZSTwvzIt-vPK&export=download",
+      image: firstImg,
       rating: 5,
     },
     {
       id: 2,
       name: "Stylish Sneakers",
-      image: "https://corsproxy.io/?https://drive.google.com/uc?id=1tBQsV3xZTEikMs20UtGKGxPA_hpnHR6b&export=download",
+      image: secondImg,
       rating: 5,
     },
     {
       id: 3,
       name: "Premium Backpack",
-      image: "https://corsproxy.io/?https://drive.google.com/uc?id=1Ua58rifeMlS1wiAXR48XP5cev8w1DoKo&export=download",
+      image: thirdImg,
       rating: 5,
     },
   ];
