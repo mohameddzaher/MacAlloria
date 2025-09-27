@@ -6,47 +6,95 @@ const products = [
     name: "CAPRICON ECO SERIES MOUNTED TYPE MANUAL BOOM MODELS",
     category: "field-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1xMBDuthG_HdUlZ2gSkbOXwBXEzHYQano&export=download",
-    description: "A powerful sprayer designed for large-scale fields.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1xMBDuthG_HdUlZ2gSkbOXwBXEzHYQano&export=download",
        "https://corsproxy.io/?https://drive.google.com/uc?id=1Ccm66OIVDht3yvRRcfGcGhohMaJBpbMM&export=download",
         "https://corsproxy.io/?https://drive.google.com/uc?id=1NIIEPtsTYeAp2Hs5U8wJzYU3RpIY5H2x&export=download", 
         "https://corsproxy.io/?https://drive.google.com/uc?id=1ee0udGfNXbbhbOSqBLX_ccXHaLd89Rof&export=download", 
         "https://corsproxy.io/?https://drive.google.com/uc?id=1hBzyuxle2m9A4zhwv0ykQcQvB5Ewt3fh&export=download",  
         "https://corsproxy.io/?https://drive.google.com/uc?id=1SlzIRCUNh8hmOw9digNYG2brA2ffsiR7&export=download"],
+    specs: {
+      title: "TANK CAPACITY 200-300-400-500-600-800-1000 LT",
+      standard: [
+        "M-80 PUMP & M-50 REGULATOR",
+        "10 METER BOOM",
+        "STANDART PLASTIC NOZZLE",
+        
+      ],
+      optional: [
+        "HS-105 PUMP & VDR-50 REGULATOR",
+        "12 METER BOOM",
+        "BRASS NOZZLE / T-JET NOZZLE"
+      ]
+    }
   },
   {
     id: "fs-02",
     name: "CAPRICON PLATINUM PRO SERIES FULL AUTOMATIC HORIZONTAL TYPE MODLES",
     category: "field-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1LiQXxBHOte0FqMKI7vRWGNGNNDU-lOov&export=download",
-    description:
-      "Efficient spraying with high-capacity tank and precision nozzles.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1LiQXxBHOte0FqMKI7vRWGNGNNDU-lOov&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1WYLRgnw0ohkx17ZosIc2dj2ItDRiBs2D&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1UHm6aynfpBhio8JprBbVZIXSzgnj5jTd&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1Wx9CnP4PvfkH1alOZ5jxChsicsIx1spx&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1uKFK4G009XWB2gyI9_Z2k8Prfe4Suy5q&export=download"],
+      specs: {
+      title: "TANK CAPACITY 600-800-1000-1200-1600 LT",
+      standard: [
+        "HS-105 PUMP & VDR-50 REGULATOR",
+        "15 METER LIFTED BOOM",
+        "STANDART PLASTIC NOZZLE",
+        "HAND WASH TANK",
+        "PVC BOOM PIPE",
+
+        
+      ],
+      optional: [
+        "HS-140 / HS-160 PUMP",
+        "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MT ARMO-X 18 MT X TYPE / 18 MT U TYPE / 18MTHOR. AUTO",
+        "BRASS NOZZLE / T-JET NOZZLE",
+        "CLEAN WATER TANK (CLASS MAX)",
+        "CHROME BOOM PIPE",
+        "HIGH LIFTED CHASIS",
+        "PRE MIXER"
+      ]
+    }
   },
   {
     id: "fs-03",
     name: "CAPRICON PLATINUM PRO SERIES FULL AUTOMATIC PROTECTED X TYPE MODLES",
     category: "field-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1tBQsV3xZTEikMs20UtGKGxPA_hpnHR6b&export=download",
-    description:
-      "Efficient spraying with high-capacity tank and precision nozzles.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1tBQsV3xZTEikMs20UtGKGxPA_hpnHR6b&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1ijMQ-E_JeULfhfzPS7mG8ummy_Keh-3X&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=10m7OYpi--6upW5urp_mdnsq1OL9qg10c&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1a5Jps6qIU-zz9abaKdX2_56BNoRAso0F&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1E8It5sc5lPv1dXsi5MpaVu0BgafC0mEB&export=download"],
+      specs: {
+      title: "TANK CAPACITY 600-800-1000-1200-1600 LT",
+      standard: [
+        "HS-105 PUMP & VDR-50 REGULATOR",
+        "15 METER LIFTED BOOM",
+        "STANDART PLASTIC NOZZLE",
+        "HAND WASH TANK",
+        "PVC BOOM PIPE"
+        
+      ],
+      optional: [
+        "HS-140 / HS-160 PUMP",
+        "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MT ARMO-X 18 MT X TYPE / 18 MT U TYPE / 18MTHOR. AUTO",
+        "BRASS NOZZLE / T-JET NOZZLE",
+        "CLEAN WATER TANK (CLASS MAX)",
+        "CHROME BOOM PIPE",
+        "HIGH LIFTED CHASIS",
+        "PRE MIXER"
+      ]
+    }
   },
   {
     id: "fs-04",
     name: "CAPRICON PLATINUM PRO SERIES FULL AUTOMATIC U TYPE MODLES",
     category: "field-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1RKcACI6U3ogHbszWO8SEEdbbp7ry5wGM&export=download",
-    description:
-      "Efficient spraying with high-capacity tank and precision nozzles.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1RKcACI6U3ogHbszWO8SEEdbbp7ry5wGM&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1ws7zSuZLtgZ5DFKvMDojwa20P7Y2zq_0&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1xFgZxtciZy0RpuRUHEi3Wo8z-7Qq105N&export=download", 
@@ -54,26 +102,62 @@ const products = [
       "https://corsproxy.io/?https://drive.google.com/uc?id=1vNbZ2O8TDOSp-7nBq6sPpA6u7m2VXNjM&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1YNFBckdyl_hGI6GFuPU_R9-NHDfnDs5J&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=17PR5Jcp3zNATWVdTRqAG2Ok5TTmf3nGQ&export=download"],
-  },
+  specs: {
+      title: "TANK CAPACITY 600-800-1000-1200-1600 LT",
+      standard: [
+        "HS-105 PUMP & VDR-50 REGULATOR",
+        "15 METER LIFTED BOOM",
+        "STANDART PLASTIC NOZZLE",
+        "HAND WASH TANK",
+        "PVC BOOM PIPE"
+        
+      ],
+      optional: [
+        "HS-140 / HS-160 PUMP",
+        "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MT ARMO-X 18 MT X TYPE / 18 MT U TYPE / 18MTHOR. AUTO",
+        "BRASS NOZZLE / T-JET NOZZLE",
+        "CLEAN WATER TANK (CLASS MAX)",
+        "CHROME BOOM PIPE",
+        "HIGH LIFTED CHASIS",
+        "PRE MIXER"
+      ]
+    }
+    },
   {
     id: "fs-05",
     name: "CAPRICON PLATINUM PRO SERIES FULL AUTOMATIC X TYPE MODLES",
     category: "field-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1Q3bIQEWWIfcyz2Ev0YR8qmOPKcNeJdTs&export=download",
-    description:
-      "Efficient spraying with high-capacity tank and precision nozzles.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1Q3bIQEWWIfcyz2Ev0YR8qmOPKcNeJdTs&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=191UBq3X1SrgBVdxr5xEWr4nTircn0rsF&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=12s10AbHlZ4wd_WDwazchSuAXAGtSqq0B&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1-dWSL6EJA45xiTD884j4WbcHLPXBYuOk&export=download"],
-  },
+  specs: {
+      title: "TANK CAPACITY 600-800-1000-1200-1600 LT",
+      standard: [
+        "HS-105 PUMP & VDR-50 REGULATOR",
+        "15 METER LIFTED BOOM",
+        "STANDART PLASTIC NOZZLE",
+        "HAND WASH TANK",
+        "PVC BOOM PIPE"
+        
+      ],
+      optional: [
+        "HS-140 / HS-160 PUMP",
+        "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MT ARMO-X 18 MT X TYPE / 18 MT U TYPE / 18MTHOR. AUTO",
+        "BRASS NOZZLE / T-JET NOZZLE",
+        "CLEAN WATER TANK (CLASS MAX)",
+        "CHROME BOOM PIPE",
+        "HIGH LIFTED CHASIS",
+        "PRE MIXER"
+      ]
+    }
+    },
   {
     id: "fs-06",
     name: "CAPRICON PLATINUM PRO SERIES MOUNTED TYPED LIFTED MODELS",
     category: "field-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1g_iAgkIZ7eXYskWgM6ci4XzXH6CK0Wkf&export=download",
-    description:
-      "Efficient spraying with high-capacity tank and precision nozzles.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1g_iAgkIZ7eXYskWgM6ci4XzXH6CK0Wkf&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1fwU3ZxBDL0uxCDKLmYbttrUTE5wSAVZA&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1owigQB2QGPDFhexCdXc-Xloz0qynGm8L&export=download", 
@@ -81,26 +165,58 @@ const products = [
       "https://corsproxy.io/?https://drive.google.com/uc?id=1GehdbQNZtMG2E33om4CcVnn_yEODioD-&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1MFk3YuYmA-id904vWfjXKrwIov5dfnJF&export=download", 
 ],
+specs: {
+      title: "DEPO HACMİ: 600-800-1000-1200-1600 LT",
+      standard: [
+        "HS-105 POMPA & VDR-50 REGÜLATÖR",
+        "15 METRE LİFTLİ İLAÇLAMA KOLU",
+        "STANDART PLASTİK NOZUL",
+        "EL YIKAMA TANKI",
+        "PVC İLAÇLAMA KOLU BORUSU"
+        
+      ],
+      optional: [
+        "HS-140/HS-160 POMPA",
+        "16 METRE LİF./15 MT X /15 MT YATAY OTO / 15 MT ARMO-X /18 MT X / 18 MT YATAY OTO",
+        "PRİNÇ NOZUL / T-JET NOZUL",
+        "TEMİZ SU DEPOSU (CLASS MAX)",
+        "KROM İLAÇLAMA KOLU BORUSU",
+        "YÜKSEK LİFTLİ ŞASE",
+        "HARİCİ KARIŞTIRICI (MİXER)"
+      ]
+    }
   },
   {
     id: "fs-07",
     name: "CAPRICON PLATINUM SERIES MOUNTED TYPED LIFTED MODELS",
     category: "field-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1FQGxRgWg4p_nTCNfV9M2V42SJwKHM3Vv&export=download",
-    description:
-      "Efficient spraying with high-capacity tank and precision nozzles.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1FQGxRgWg4p_nTCNfV9M2V42SJwKHM3Vv&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1e4dPiWF-94PzT19An3Pr4ObMNC5k_ZtH&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1dO5acjuc-nUOmjtMIM1bQ2VIwngUgWa5&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1qT_Z4adRoRDctNO0OoF1TpZ9IFsIzKVj&export=download"],
-  },
+  specs: {
+      title: "TANK CAPACITY 600-800-1000 LT",
+      standard: [
+        "M-80 PUMP & M-50 REGULATOR",
+        "12 METER LIFTED BOOM",
+        "STANDART PLASTIC NOZZLE",
+        "HAND WASH TANK",
+        
+      ],
+      optional: [
+        "HS-105 PUMP & VDR -50 REGULATOR",
+        "15 - 16 METER LIFTED BOOM",
+        "BRASS NOZZLE / T-JET NOZZLE",
+
+      ]
+    }
+    },
   {
     id: "fs-08",
     name: "CAPRICON TRAILED TYPE FULL AUTOMATIC FIELD SPRAYER MODELS",
     category: "field-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=10KrKbTCR2nyz_lEqxBMMGGbe1yWR3Dh7&export=download",
-    description:
-      "Efficient spraying with high-capacity tank and precision nozzles.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=10KrKbTCR2nyz_lEqxBMMGGbe1yWR3Dh7&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1SYDgL4TMdLaHKJEsB6i_OP2Dn1KMGRuG&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1hCY2zIz1cOKCoz59cj_gKQhSzUDh2hlo&export=download", 
@@ -109,42 +225,103 @@ const products = [
         "https://corsproxy.io/?https://drive.google.com/uc?id=1FFoBQcJA4bgZTzfObi2qJ97Z9rbaaDC4&export=download",
          "https://corsproxy.io/?https://drive.google.com/uc?id=1hUNzYes2aDvy1lLT_shXlf-MpvoI39aW&export=download", 
          "https://corsproxy.io/?https://drive.google.com/uc?id=1PHyw6_oNf-WmRUowacQoZ_lxSp-pqRlv&export=download"],
-  },
+  specs: {
+      title: "TANK CAPACITY 1000-1600-2000-3000 LT",
+      standard: [
+        "HS-105 PUMP & VDR-50 REGULATOR",
+        "15 METER LIFTED BOOM",
+        "STANDART PLASTIC NOZZLE",
+        "HAND WASH TANK & CLEAN WATER TANK",
+        "PVC BOOM PIPE",
+        "PRE MIXER"
+        
+      ],
+      optional: [
+        "HS-140 / HS-160 / HS-180 PUMP",
+        "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MTARMO-X / 18 MT X TYPE / 18 MT U TYPE / 18MT HOR. AUTO / 24 MT U TYPE",
+        "BRASS NOZZLE / T-JET NOZZLE",
+"-",
+"CHROME BOOM PIPE",
+"-",
+"HIGH WHEEL",
+"ADJUSTABLE TOWING EYE",
+"DRUM BRAKES (FOR 3000 LT )",
+"LEAF SPRINGS (FOR 3000 LT )"
+      ]
+    }
+        },
 
   {
     id: "ga-01",
     name: "AMOUNTED TYPE GARDEN SPRAYER",
     category: "garden-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1M-39cYUvQzRz9G710vzDLGsbHp2S3Ilj&export=download",
-    description: "Perfect for small gardens and precise spraying tasks.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1M-39cYUvQzRz9G710vzDLGsbHp2S3Ilj&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1fNGawrmDK7snKY5IsKRWOeuejNC1rPmc&export=download"],
-  },
+  specs: {
+      title: "TANK CAPACITY 200-300-400-500-600-800-1000 LT",
+      standard: [
+        "M-80 PUMP & M-50 REGULATOR",
+        "SINGLE HOSE REEL, 15 METER HOSE WITH SINGLE SPRAY GUN",
+        
+      ],
+      optional: [
+        "HS-105 PUMP & VDR-50 REGULATOR",
+        "DOUBLE HOSE REELS, UP TO 100 METER HOSE WITH DOUBLE SPRAY GUN",
+
+      ]
+    }
+    },
 
   {
     id: "ga-02",
     name: "HAND PUSH TYPE GARDEN SPRAYER",
     category: "garden-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1Vjmn2QCTIINWvI30l7FvZSTwvzIt-vPK&export=download",
-    description: "Perfect for small gardens and precise spraying tasks.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1Vjmn2QCTIINWvI30l7FvZSTwvzIt-vPK&export=download"],
+  specs: {
+      title: "TANK CAPACITY 100- 200-300 LT",
+      standard: [
+        "PN-22 PISTON PUMP",
+        "GASOLINE ENGINE",
+        "WITH BELT-SEPARATOR"
+        
+      ],
+      optional: [
+        "HS-30 PUMP",
+        "ELECTRIC ENGINE",
+        "-"
+      ]
+    }
   },
   {
     id: "ga-03",
     name: "TRAILED TYPE GARDEN SPRAYER",
     category: "garden-sprayers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1Ifp8W0sMChCM-BcsEcDSfm-mVEAXdbC2&export=download",
-    description: "Perfect for small gardens and precise spraying tasks.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1Ifp8W0sMChCM-BcsEcDSfm-mVEAXdbC2&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=16Dl4fNOSbohLDJ9c4SnvZQHHm2KKdYTp&export=download"],
-  },
+  specs: {
+      title: "TANK CAPACITY 1000-1600-2000 LT",
+      standard: [
+        "HS-105 PUMP & VDR REGULATOR",
+        "SINGLE HOSE REEL, 15 METER HOSE WITH SINGLE SPRAY GUN",
+        "PLASTIC TANK"
+        
+      ],
+      optional: [
+        "HS-140 / HS-160 PUMP",
+        "DOUBLE HOSE REELS, UP TO 100 METER HOSE WITH, DOUBLE SPRAY GUN",
+        "FIBER TANK"
+      ]
+    }
+    },
 
   {
     id: "tu-01",
     name: "DOLPHIN  PRO SERIES MOUNTED TYPE TURBO ATOMIZER",
     category: "turbo-atomizers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1Ua58rifeMlS1wiAXR48XP5cev8w1DoKo&export=download",
-    description: "Perfect for small gardens and precise spraying tasks.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1Ua58rifeMlS1wiAXR48XP5cev8w1DoKo&export=download",
        "https://corsproxy.io/?https://drive.google.com/uc?id=1ghDce1Ad2mLNkD6tO7zam6km8vE0BYqQ&export=download", 
        "https://corsproxy.io/?https://drive.google.com/uc?id=1ibpTnqNYYYGXqJEkhfrnf5ZnETPukF5L&export=download", 
@@ -152,13 +329,28 @@ const products = [
         "https://corsproxy.io/?https://drive.google.com/uc?id=1srwFkid01t56RNlbvgPhIIfHZ4fpoCPN&export=download",
          "https://corsproxy.io/?https://drive.google.com/uc?id=1F_RQze7rUYFTe55V2VeABDsRaeaX2s2Z&export=download" 
          ],
+         specs: {
+      title: "TANK CAPACITY 600-800-1000 LT",
+      standard: [
+        "HS-105 PUMP & VDR-50 REGULATOR",
+        "Q60 FAN",
+        "WITH BELT-SEPARATOR",
+        "PAINTED FAN"
+        
+      ],
+      optional: [
+        "HS-140 / HS-160 PUMP",
+        "Q75 /Q80/Q90/V-TİPİ",
+        "WITH TRANSMISSION (2 SPEED)",
+        "CHROME FAN"
+      ]
+    }
   },
   {
     id: "tu-02",
     name: "DOLPHIN ECO SERIES MOUNTED TYPE TURBO ATOMIZER",
     category: "turbo-atomizers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1Z6o-i-PsIKL_qbS_jp4Zwgf9StHoQSZP&export=download",
-    description: "Perfect for small gardens and precise spraying tasks.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1Z6o-i-PsIKL_qbS_jp4Zwgf9StHoQSZP&export=download",
        "https://corsproxy.io/?https://drive.google.com/uc?id=1gE3ItCI8T-UwksjhF3jnOhJHJQLLpEGU&export=download", 
        "https://corsproxy.io/?https://drive.google.com/uc?id=1qgYnwlpVuThgrWHKlilt7rPjPyJ3K7IL&export=download", 
@@ -166,26 +358,57 @@ const products = [
        "https://corsproxy.io/?https://drive.google.com/uc?id=1oONsAWdf_hCna-0apJc4PYTwoH7iktas&export=download", 
        "https://corsproxy.io/?https://drive.google.com/uc?id=1ZLQohFsHh1pI99GqfrcM26bhFUrdCU1-&export=download",
         "https://corsproxy.io/?https://drive.google.com/uc?id=1lrLPGIsSnkMYN6eegtj8gIVR6DugfuOG&export=download"],
-  },
+  specs: {
+      title: "TANK CAPACITY 200-300-400-500-600-800-1000 LT",
+      standard: [
+        "M-80 PUMP & M-50 REGULATOR",
+        "Q60 FAN",
+        "WITH BELT-SEPARATOR",
+        "PAINTED FAN"
+        
+      ],
+      optional: [
+        "HS-105 PUMP & VDR-50 REGULATOR",
+        "Q75 FAN",
+        "-",
+        "CHROME FAN"
+      ]
+    }
+      },
   {
     id: "tu-03",
     name: "DOLPHIN RO- PRO  SERIES MOUNTED TYPE TURBO ATOMIZER",
     category: "turbo-atomizers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1B6YkCRbxmtqX71fmK8-3S-hVC32Z6BsV&export=download",
-    description: "Perfect for small gardens and precise spraying tasks.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1B6YkCRbxmtqX71fmK8-3S-hVC32Z6BsV&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=15N6VsgTRFxynY-97hbNDeMo6uXKeoR8T&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1aWRQl3GHyRslFAxJE401a_0jHlENbHQ5&export=download", 
       "https://corsproxy.io/?https://drive.google.com/uc?id=1mDGgApjxdKxoCk6CCfrMzH_gGR243B6c&export=download",
        "https://corsproxy.io/?https://drive.google.com/uc?id=1skkz2ew03Xa8-Gmbfeck6O5qztBqBRJ1&export=download" 
 ],
+specs: {
+      title: "TANK CAPACITY 600-800-1000 LT",
+      standard: [
+        "HS-140 PUMP & VDR-50 REGULATOR",
+        "CANON",
+        "PAINTED FAN",
+        "WITH TRANSMISSION (2 SPEED)",
+        
+        
+      ],
+      optional: [
+        "HS-160 PUMP",
+        "ROBOTIC (ROBOTHEAD)",
+        "GALVANIZED FAN",
+        
+      ]
+    }
   },
   {
     id: "tu-04",
     name: "T- DOLPHIN SERIES TRAILED TYPE TURBO ATOMIZER",
     category: "turbo-atomizers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1nYx4ZKdh1kPF1P9oWzkLapoKY4CO-rW3&export=download",
-    description: "Perfect for small gardens and precise spraying tasks.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1nYx4ZKdh1kPF1P9oWzkLapoKY4CO-rW3&export=download",
        "https://corsproxy.io/?https://drive.google.com/uc?id=1TxDevuHgrqKn4IUaDm8CzrS8bdqDZbou&export=download", 
        "https://corsproxy.io/?https://drive.google.com/uc?id=1_6K-MHj3qr-rWWege0ZBPg72GMfORNo5&export=download", 
@@ -197,17 +420,50 @@ const products = [
          "https://corsproxy.io/?https://drive.google.com/uc?id=1p3wczYNNUL1TMchNxuv8zCzSr6kQ0xri&export=download", 
          "https://corsproxy.io/?https://drive.google.com/uc?id=1j8M5U5Eut4susFSL2SKztN-50LmX5FEV&export=download"
 ],
+specs: {
+      title: "TANK CAPACITY 1000-1600-2000 - 3000 LT",
+      standard: [
+        "HS-105 PUMP & BY-50 REGULATOR",
+        "Q60 FAN",
+        "PAINTED FAN",
+        "WITH TRANSMISSION (2 SPEED)",
+        "PLASTIC TANK"
+      ],
+      optional: [
+        "S-140 / HS-160 / HS-180 PUMP",
+        "Q75 / Q80 / Q90 / V-TYPE",
+        "CHROME FAN",
+        "-",
+        "FİBER TANK"
+      ]
+    }
   },
   {
     id: "tu-05",
     name: "T-TOWER DOLPHIN SERIES TRAILED TYPE TURBO ATOMIZER",
     category: "turbo-atomizers",
     image: "https://corsproxy.io/?https://drive.google.com/uc?id=1n2zqtDfwvo7esAqV0cDUKqjNpNCrDiIP&export=download",
-    description: "Perfect for small gardens and precise spraying tasks.",
     gallery: ["https://corsproxy.io/?https://drive.google.com/uc?id=1n2zqtDfwvo7esAqV0cDUKqjNpNCrDiIP&export=download",
        "https://corsproxy.io/?https://drive.google.com/uc?id=140iEuUn6X5Mv8I94DQLulY2YCoMaXeoq&export=download", 
        "https://corsproxy.io/?https://drive.google.com/uc?id=1_3fCF_0RXORruyc83ivvT5qKexE1uPqY&export=download"
 ],
+specs: {
+      title: "TANK CAPACITY 1000-1600-2000-3000 LT",
+      standard: [
+        "HS-160 PUMP & BY-50 REGULATOR",
+        "CANON",
+        "PAINTED FAN",
+        "WITH TRANSMISSION (2 SPEED)",
+        "PLASTIC TANK"
+      ],
+      optional: [
+        "HS-180 PUMP",
+        "ROBOTIC (ROBOTHEAD)",
+        "GALVANIZED FAN",
+        "-",
+        "FIBER TANK"
+      ]
+    }
   },
 ];
 

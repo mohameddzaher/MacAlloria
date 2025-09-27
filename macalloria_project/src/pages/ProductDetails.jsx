@@ -59,24 +59,36 @@ export default function ProductDetails() {
 
             {/* المواصفات */}
             <h3 className="text-lg font-semibold mb-2 text-[#03261d]">Product Specifications</h3>
-            <div className="w-full border border-gray-300 rounded-lg overflow-hidden">
-              <div className="grid grid-cols-2 border-b p-4 bg-gray-100 font-medium">
-                <div>Weight</div>
-                <div>{product.weight || 'N/A'}</div>
-              </div>
-              <div className="grid grid-cols-2 border-b p-4">
-                <div>Capacity</div>
-                <div>{product.capacity || 'N/A'}</div>
-              </div>
-              <div className="grid grid-cols-2 border-b p-4 bg-gray-100">
-                <div>Material</div>
-                <div>{product.material || 'N/A'}</div>
-              </div>
-              <div className="grid grid-cols-2 p-4">
-                <div>Warranty</div>
-                <div>{product.warranty || 'N/A'}</div>
-              </div>
-            </div>
+<div className="w-full border border-gray-300 rounded-lg overflow-hidden">
+  {/* العنوان الكبير */}
+  <div className="p-4 text-center font-semibold bg-gray-200 border-b">
+    {product.specs?.title || "Specifications"}
+  </div>
+
+  {/* العناوين الثابتة */}
+  <div className="grid grid-cols-2 text-center font-bold bg-gray-300 border-b">
+    <div className="p-4 border-r">Standard Equipments</div>
+    <div className="p-4">Optional Equipments</div>
+  </div>
+
+  {/* الداتا */}
+  <div className="grid grid-cols-2 text-center">
+    <div className=" border-r border-b">
+      {product.specs?.standard?.map((item, idx) => (
+        <div key={idx} className="p-4 border-b last:border-0">
+          {item}
+        </div>
+      ))}
+    </div>
+    <div className=" border-b">
+      {product.specs?.optional?.map((item, idx) => (
+        <div key={idx} className="p-4 border-b last:border-0">
+          {item}
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
           </div>
         </div>
       </div>
