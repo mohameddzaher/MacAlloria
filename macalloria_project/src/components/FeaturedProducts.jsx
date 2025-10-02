@@ -1,5 +1,6 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import bgImage from "../assets/bg4.jpg"; // غيّر الصورة دي على حسب اللي عندك
 
@@ -88,12 +89,12 @@ export default function FeaturedProducts() {
 
         {/* Button to view all products */}
         <div className="mt-6">
-          <a
-            href="/products"
+          <Link
+            to="/products"
             className="bg-green-900 text-xs text-white  px-5 py-2.5 rounded-lg hover:px-8 transition-all duration-500 ease-in-out"
           >
             View All Products
-          </a>
+          </Link>
         </div>
       </div>
     </section>
