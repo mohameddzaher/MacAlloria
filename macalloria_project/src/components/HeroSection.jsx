@@ -11,18 +11,19 @@ export default function HeroSection() {
     <section className="relative w-full h-screen overflow-hidden">
       {/* Vimeo Background Video */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <iframe
-          src="https://player.vimeo.com/video/1116478609?autoplay=1&loop=1&muted=1&background=1"
-          frameBorder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowFullScreen
-          className="absolute top-1/2 left-1/2 min-w-full min-h-full"
-          style={{
-            transform: "translate(-50%, -50%) scale(3)", // للموبايل
-            objectFit: "cover",
-          }}
-        ></iframe>
-      </div>
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="absolute top-0 left-0 w-full h-full object-cover"
+  >
+    <source
+      src="https://res.cloudinary.com/dh7s7lifx/video/upload/f_auto,q_auto,vc_auto,w_1920,h_1080,c_fill/v1759434853/z8rcqmyvlfyfsatz78x3.mov"
+      type="video/mp4"
+    />
+  </video>
+</div>
 
       {/* Dark Overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-black/40 z-10"></div>
