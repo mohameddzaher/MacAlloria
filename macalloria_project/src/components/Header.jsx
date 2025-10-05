@@ -30,12 +30,12 @@ export default function Header() {
           <a className=" hover:text-red-300" href="https://www.facebook.com/profile.php?id=61579091995646&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
             <FaFacebook />
           </a>
-          <a className=" hover:text-red-300" href="https://www.instagram.com/mohamedd.zaher/" target="_blank" rel="noopener noreferrer">
+          {/* <a className=" hover:text-red-300" href="https://www.instagram.com/mohamedd.zaher/" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
           <a className="hover:text-red-300" href="https://www.tiktok.com/@mohamedd.zaher" target="_blank" rel="noopener noreferrer">
             <FaTiktok />
-          </a>
+          </a> */}
         </div>
       </div>
 

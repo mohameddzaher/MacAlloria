@@ -56,16 +56,16 @@ const Footer = () => {
       link: 'https://www.facebook.com/profile.php?id=61579091995646&mibextid=wwXIfr&mibextid=wwXIfr',
       target: '_blank',
     },
-    {
-      name: 'Instagram',
-      link: 'https://www.instagram.com/mohamedd.zaher/',
-      target: '_blank',
-    },
-    {
-      name: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/mohameddzaher/',
-      target: '_blank',
-    },
+    // {
+    //   name: 'Instagram',
+    //   link: 'https://www.instagram.com/mohamedd.zaher/',
+    //   target: '_blank',
+    // },
+    // {
+    //   name: 'LinkedIn',
+    //   link: 'https://www.linkedin.com/in/mohameddzaher/',
+    //   target: '_blank',
+    // },
   ];
 
   return (
