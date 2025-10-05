@@ -53,7 +53,7 @@ const Footer = () => {
   const socialItems = [
     {
       name: 'Facebook',
-      link: 'https://www.facebook.com/Mohamedzaherrr',
+      link: 'https://www.facebook.com/profile.php?id=61579091995646&mibextid=wwXIfr&mibextid=wwXIfr',
       target: '_blank',
     },
     {

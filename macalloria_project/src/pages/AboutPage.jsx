@@ -1,6 +1,6 @@
 // src/pages/AboutPage.jsx
 import React from "react";
-import aboutHero from "../assets/s1.jpg"; // صورة الغلاف
+import aboutHero from "../assets/new1.jpeg"; // صورة الغلاف
 import aboutTeam from "../assets/corporate.webp"; // صورة الفريق أو نشاط الشركة
 
 export default function AboutPage() {
@@ -19,9 +19,7 @@ export default function AboutPage() {
       <section className="mt-10 px-4 md:px-6 max-w-6xl mx-auto text-center">
         <h2 className="text-xl font-bold text-[#03261d] mb-4">Who We Are</h2>
         <p className="text-gray-700 text-md leading-relaxed max-w-3xl mx-auto">
-          We are a forward-thinking agricultural solutions company, dedicated to
-          equipping farmers and businesses with cutting-edge tools and machinery
-          that empower growth, efficiency, and sustainability.
+          We ALLORIA INDUSTRY MAKINA  are a forward-thinking agricultural solutions company, dedicated to equipping farmers and businesses with spraying machinery that empower growth, efficiency, and sustainability.
         </p>
       </section>
 
