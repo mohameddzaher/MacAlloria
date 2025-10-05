@@ -21,7 +21,7 @@ const products = [
         
       ],
       optional: [
-        "HS-105 PUMP & VDR-50 REGULATOR",
+        "ALR-105 PUMP & VDR-50 REGULATOR",
         "12 METER BOOM",
         "BRASS NOZZLE / T-JET NOZZLE"
       ]
@@ -40,7 +40,7 @@ const products = [
       specs: {
       title: "TANK CAPACITY 600-800-1000-1200-1600 LT",
       standard: [
-        "HS-105 PUMP & VDR-50 REGULATOR",
+        "ALR-105 PUMP & VDR-50 REGULATOR",
         "15 METER LIFTED BOOM",
         "STANDART PLASTIC NOZZLE",
         "HAND WASH TANK",
@@ -49,7 +49,7 @@ const products = [
         
       ],
       optional: [
-        "HS-140 / HS-160 PUMP",
+        "ALR-140 / HS-160 PUMP",
         "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MT ARMO-X 18 MT X TYPE / 18 MT U TYPE / 18MTHOR. AUTO",
         "BRASS NOZZLE / T-JET NOZZLE",
         "CLEAN WATER TANK (CLASS MAX)",
@@ -72,7 +72,7 @@ const products = [
       specs: {
       title: "TANK CAPACITY 600-800-1000-1200-1600 LT",
       standard: [
-        "HS-105 PUMP & VDR-50 REGULATOR",
+        "ALR-105 PUMP & VDR-50 REGULATOR",
         "15 METER LIFTED BOOM",
         "STANDART PLASTIC NOZZLE",
         "HAND WASH TANK",
@@ -80,7 +80,7 @@ const products = [
         
       ],
       optional: [
-        "HS-140 / HS-160 PUMP",
+        "ALR-140 / HS-160 PUMP",
         "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MT ARMO-X 18 MT X TYPE / 18 MT U TYPE / 18MTHOR. AUTO",
         "BRASS NOZZLE / T-JET NOZZLE",
         "CLEAN WATER TANK (CLASS MAX)",
@@ -105,7 +105,7 @@ const products = [
   specs: {
       title: "TANK CAPACITY 600-800-1000-1200-1600 LT",
       standard: [
-        "HS-105 PUMP & VDR-50 REGULATOR",
+        "ALR-105 PUMP & VDR-50 REGULATOR",
         "15 METER LIFTED BOOM",
         "STANDART PLASTIC NOZZLE",
         "HAND WASH TANK",
@@ -113,7 +113,7 @@ const products = [
         
       ],
       optional: [
-        "HS-140 / HS-160 PUMP",
+        "ALR-140 / HS-160 PUMP",
         "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MT ARMO-X 18 MT X TYPE / 18 MT U TYPE / 18MTHOR. AUTO",
         "BRASS NOZZLE / T-JET NOZZLE",
         "CLEAN WATER TANK (CLASS MAX)",
@@ -135,7 +135,7 @@ const products = [
   specs: {
       title: "TANK CAPACITY 600-800-1000-1200-1600 LT",
       standard: [
-        "HS-105 PUMP & VDR-50 REGULATOR",
+        "ALR-105 PUMP & VDR-50 REGULATOR",
         "15 METER LIFTED BOOM",
         "STANDART PLASTIC NOZZLE",
         "HAND WASH TANK",
@@ -143,7 +143,7 @@ const products = [
         
       ],
       optional: [
-        "HS-140 / HS-160 PUMP",
+        "ALR-140 / HS-160 PUMP",
         "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MT ARMO-X 18 MT X TYPE / 18 MT U TYPE / 18MTHOR. AUTO",
         "BRASS NOZZLE / T-JET NOZZLE",
         "CLEAN WATER TANK (CLASS MAX)",
@@ -168,7 +168,7 @@ const products = [
 specs: {
       title: "DEPO HACMİ: 600-800-1000-1200-1600 LT",
       standard: [
-        "HS-105 POMPA & VDR-50 REGÜLATÖR",
+        "ALR-105 POMPA & VDR-50 REGÜLATÖR",
         "15 METRE LİFTLİ İLAÇLAMA KOLU",
         "STANDART PLASTİK NOZUL",
         "EL YIKAMA TANKI",
@@ -176,7 +176,7 @@ specs: {
         
       ],
       optional: [
-        "HS-140/HS-160 POMPA",
+        "ALR-140/HS-160 POMPA",
         "16 METRE LİF./15 MT X /15 MT YATAY OTO / 15 MT ARMO-X /18 MT X / 18 MT YATAY OTO",
         "PRİNÇ NOZUL / T-JET NOZUL",
         "TEMİZ SU DEPOSU (CLASS MAX)",
@@ -205,7 +205,7 @@ specs: {
         
       ],
       optional: [
-        "HS-105 PUMP & VDR -50 REGULATOR",
+        "ALR-105 PUMP & VDR -50 REGULATOR",
         "15 - 16 METER LIFTED BOOM",
         "BRASS NOZZLE / T-JET NOZZLE",
 
@@ -228,7 +228,7 @@ specs: {
   specs: {
       title: "TANK CAPACITY 1000-1600-2000-3000 LT",
       standard: [
-        "HS-105 PUMP & VDR-50 REGULATOR",
+        "ALR-105 PUMP & VDR-50 REGULATOR",
         "15 METER LIFTED BOOM",
         "STANDART PLASTIC NOZZLE",
         "HAND WASH TANK & CLEAN WATER TANK",
@@ -237,7 +237,7 @@ specs: {
         
       ],
       optional: [
-        "HS-140 / HS-160 / HS-180 PUMP",
+        "ALR-140 / HS-160 / HS-180 PUMP",
         "16 MT LIF. / 15 MT X TYPE / 15 MT HORIZONTAL AUTO / 15 MTARMO-X / 18 MT X TYPE / 18 MT U TYPE / 18MT HOR. AUTO / 24 MT U TYPE",
         "BRASS NOZZLE / T-JET NOZZLE",
 "-",
@@ -266,7 +266,7 @@ specs: {
         
       ],
       optional: [
-        "HS-105 PUMP & VDR-50 REGULATOR",
+        "ALR-105 PUMP & VDR-50 REGULATOR",
         "DOUBLE HOSE REELS, UP TO 100 METER HOSE WITH DOUBLE SPRAY GUN",
 
       ]
@@ -288,7 +288,7 @@ specs: {
         
       ],
       optional: [
-        "HS-30 PUMP",
+        "ALR-30 PUMP",
         "ELECTRIC ENGINE",
         "-"
       ]
@@ -304,13 +304,13 @@ specs: {
   specs: {
       title: "TANK CAPACITY 1000-1600-2000 LT",
       standard: [
-        "HS-105 PUMP & VDR REGULATOR",
+        "ALR-105 PUMP & VDR REGULATOR",
         "SINGLE HOSE REEL, 15 METER HOSE WITH SINGLE SPRAY GUN",
         "PLASTIC TANK"
         
       ],
       optional: [
-        "HS-140 / HS-160 PUMP",
+        "ALR-140 / HS-160 PUMP",
         "DOUBLE HOSE REELS, UP TO 100 METER HOSE WITH, DOUBLE SPRAY GUN",
         "FIBER TANK"
       ]
@@ -332,14 +332,14 @@ specs: {
          specs: {
       title: "TANK CAPACITY 600-800-1000 LT",
       standard: [
-        "HS-105 PUMP & VDR-50 REGULATOR",
+        "ALR-105 PUMP & VDR-50 REGULATOR",
         "Q60 FAN",
         "WITH BELT-SEPARATOR",
         "PAINTED FAN"
         
       ],
       optional: [
-        "HS-140 / HS-160 PUMP",
+        "ALR-140 / HS-160 PUMP",
         "Q75 /Q80/Q90/V-TİPİ",
         "WITH TRANSMISSION (2 SPEED)",
         "CHROME FAN"
@@ -368,7 +368,7 @@ specs: {
         
       ],
       optional: [
-        "HS-105 PUMP & VDR-50 REGULATOR",
+        "ALR-105 PUMP & VDR-50 REGULATOR",
         "Q75 FAN",
         "-",
         "CHROME FAN"
@@ -389,7 +389,7 @@ specs: {
 specs: {
       title: "TANK CAPACITY 600-800-1000 LT",
       standard: [
-        "HS-140 PUMP & VDR-50 REGULATOR",
+        "ALR-140 PUMP & VDR-50 REGULATOR",
         "CANON",
         "PAINTED FAN",
         "WITH TRANSMISSION (2 SPEED)",
@@ -397,7 +397,7 @@ specs: {
         
       ],
       optional: [
-        "HS-160 PUMP",
+        "ALR-160 PUMP",
         "ROBOTIC (ROBOTHEAD)",
         "GALVANIZED FAN",
         
@@ -423,7 +423,7 @@ specs: {
 specs: {
       title: "TANK CAPACITY 1000-1600-2000 - 3000 LT",
       standard: [
-        "HS-105 PUMP & BY-50 REGULATOR",
+        "ALR-105 PUMP & BY-50 REGULATOR",
         "Q60 FAN",
         "PAINTED FAN",
         "WITH TRANSMISSION (2 SPEED)",
@@ -450,14 +450,14 @@ specs: {
 specs: {
       title: "TANK CAPACITY 1000-1600-2000-3000 LT",
       standard: [
-        "HS-160 PUMP & BY-50 REGULATOR",
+        "ALR-160 PUMP & BY-50 REGULATOR",
         "CANON",
         "PAINTED FAN",
         "WITH TRANSMISSION (2 SPEED)",
         "PLASTIC TANK"
       ],
       optional: [
-        "HS-180 PUMP",
+        "ALR-180 PUMP",
         "ROBOTIC (ROBOTHEAD)",
         "GALVANIZED FAN",
         "-",

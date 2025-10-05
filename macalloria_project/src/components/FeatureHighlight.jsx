@@ -17,10 +17,10 @@ export default function FeatureHighlight() {
         {/* Text Column */}
         <div>
           <h3 className="text-xl md:text-2xl font-bold mb-3 leading-snug">
-            Smart Agriculture Solutions for a Better Tomorrow
+            Smart spraying technologies for a better Future 
           </h3>
           <p className="text-gray-300 text-sm md:text-base mb-5 leading-relaxed">
-            Our modern machinery is designed to save time, reduce labor, and increase yield for farmers. From soil preparation to harvesting, we support every step of the way.
+            Our modern machinery is designed to save time, reduce labor, and increase yield for farmers.
           </p>
           <button className="bg-green-700 hover:bg-green-900 text-white px-5 py-2 text-sm rounded-md transition">
             Explore Solutions
