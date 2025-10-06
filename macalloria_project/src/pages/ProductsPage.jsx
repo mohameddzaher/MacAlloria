@@ -25,7 +25,7 @@ export default function ProductsPage() {
         <h2 className="text-2xl font-bold mb-10 text-[#03261d]">Explore Our Categories</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {categories.map((cat) => (
-            <Link to={`/products/${cat.id}`} key={cat.id} className="bg-white shadow-xl rounded-xl p-6 hover:shadow-2xl transition text-[#03261d] font-medium border-t-1 border-gray-200">
+            <Link to={`/products/${cat.id}`} key={cat.id} className="bg-gray-900 shadow-xl rounded-xl p-6 hover:bg-gray-800 hover:shadow-2xl transition text-white font-medium border-t-1 border-gray-200">
               {cat.name}
             </Link>
           ))}

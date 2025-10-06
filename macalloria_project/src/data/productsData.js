@@ -302,7 +302,7 @@ specs: {
     category: "garden-sprayers",
     image: "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759425424/yb2rtmgnwcze5bka45e2.png",
     gallery: ["https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759425424/yb2rtmgnwcze5bka45e2.png", 
-      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759425432/t4vjontytm8b3oiux32r.png"],
+      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759758611/vo53jup5uzfqdrxgql2v.png"],
   specs: {
       title: "TANK CAPACITY 1000-1600-2000 LT",
       standard: [
