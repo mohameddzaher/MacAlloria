@@ -63,12 +63,14 @@ const products = [
     id: "fs-03",
     name: "CAPRICON PLATINUM PRO SERIES FULL AUTOMATIC PROTECTED X TYPE MODLES",
     category: "field-sprayers",
-    image: "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759425135/vqbqxnspabekg3a0j61l.png",
-    gallery: ["https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759425135/vqbqxnspabekg3a0j61l.png", 
-      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759425160/yjnd9ofbld1hf3k1pfd5.png", 
-      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759427298/nuaokmp1skmjkztnngbt.jpg", 
-      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759425143/imer3na40sgjcgh18hmi.png", 
-      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759425134/wirva5xaaswf7kfk9zqa.png"],
+    image: "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759750056/whorufgdneqh5luw26zw.png",
+    gallery: ["https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759750056/whorufgdneqh5luw26zw.png", 
+      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759750056/zrwbbx8qchch5y3fotav.png", 
+      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759750056/cogp4fht2lebiev0psne.png", 
+      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759750056/clqtjhdzvadyaqyopsty.png", 
+      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759750056/lb43vv9zpx3y6sx4rxfa.png",
+      "https://res.cloudinary.com/dh7s7lifx/image/upload/f_auto,q_auto,w_800/v1759750055/wama5ujz6ha2nqoquypp.png"
+    ],
       specs: {
       title: "TANK CAPACITY 600-800-1000-1200-1600 LT",
       standard: [
