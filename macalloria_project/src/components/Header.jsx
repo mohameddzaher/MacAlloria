@@ -2,13 +2,15 @@ import { useState, useEffect, useRef } from "react";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import { Link, useLocation } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
 import logo from "../assets/removed.png";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const menuRef = useRef();
-  const location = useLocation(); // عشان نعرف الصفحة الحالية
+  const menuRef = useRef(null);
+  const location = useLocation();
 
+  // إغلاق القائمة عند الضغط خارجها
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -19,34 +21,62 @@ export default function Header() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // إغلاق القائمة عند تغيير الصفحة
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location]);
+
   return (
-    <header className="w-full z-50">
+    <header className="fixed top-0 left-0 w-full z-50">
       {/* Top Bar */}
-      <div className="bg-gray-800 text-white flex justify-evenly items-center px-4 py-2 text-xs fixed top-0 z-50 w-full">
-        <h6 className="tracking-widest whitespace-pre">
+      <div className="bg-gray-800 text-white flex justify-between md:justify-evenly items-center px-4 py-2 text-xs font-light tracking-wide">
+        <h6 className="whitespace-nowrap">
           FREE SHIPPING FOR ORDERS OVER 3 PIECES.
         </h6>
         <div className="flex gap-3 text-sm">
-          <a className=" hover:text-red-300" href="https://www.facebook.com/profile.php?id=61579091995646&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+          <a
+            className="hover:text-green-400 transition"
+            href="https://www.facebook.com/profile.php?id=61579091995646"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaFacebook />
           </a>
-          {/* <a className=" hover:text-red-300" href="https://www.instagram.com/mohamedd.zaher/" target="_blank" rel="noopener noreferrer">
+          {/* <a
+            className="hover:text-green-400 transition"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram />
           </a>
-          <a className="hover:text-red-300" href="https://www.tiktok.com/@mohamedd.zaher" target="_blank" rel="noopener noreferrer">
+          <a
+            className="hover:text-green-400 transition"
+            href="https://www.tiktok.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTiktok />
           </a> */}
         </div>
       </div>
 
-      {/* Main Navigation */}
-      <div className="flex justify-evenly items-center w-full fixed top-8 z-50 bg-white shadow-sm px-6 py-2">
-        <div className="w-1/3 flex items-center gap-2 text-red-500 text-xl tracking-widest ">
-          <img src={logo} alt="Macalloria Logo" className="w-40 h-12 object-contain cursor-pointer scale-180" />
-        </div>
+      {/* Main Nav */}
+      <div className="bg-white/95 backdrop-blur-md shadow-sm flex justify-between items-center px-6 py-3 md:py-2 w-full top-[32px] relative">
+        {/* Logo */}
+        <Link to="/" className="flex items-center gap-2">
+          <div className="relative w-28 h-10 md:w-36 md:h-12">
+            <img
+              src={logo}
+              alt="Macalloria Logo"
+              className="absolute inset-0 w-full h-full object-contain cursor-pointer transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+        </Link>
 
-        <nav className="w-1/3 hidden md:flex">
-          <ul className="flex justify-between text-sm font-medium w-full">
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex">
+          <ul className="flex items-center gap-8 text-sm font-medium text-gray-800">
             <NavItem to="/" text="Home" location={location} />
             <NavItem to="/products" text="Products" location={location} />
             <NavItem to="/about" text="About us" location={location} />
@@ -54,48 +84,64 @@ export default function Header() {
           </ul>
         </nav>
 
+        {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center">
-          <button onClick={() => setMenuOpen(!menuOpen)} className="text-2xl text-gray-700 focus:outline-none">
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="text-2xl text-gray-700 focus:outline-none"
+            aria-label="Toggle menu"
+          >
             {menuOpen ? <HiOutlineX /> : <HiOutlineMenu />}
           </button>
         </div>
       </div>
 
       {/* Mobile Menu */}
-      {menuOpen && (
-        <div
-          ref={menuRef}
-          className="md:hidden fixed top-[90px] left-0 w-full bg-white shadow-lg z-40"
-        >
-          <ul className="flex flex-col items-center gap-4 py-4 text-sm font-medium text-gray-800">
-            <NavItem to="/" text="Home" location={location} />
-            <NavItem to="/products" text="Products" location={location} />
-            <NavItem to="/about" text="About us" location={location} />
-            <NavItem to="/contact" text="Contact" location={location} />
-          </ul>
-        </div>
-      )}
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            ref={menuRef}
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.25 }}
+            className="md:hidden bg-white shadow-md border-t border-gray-200"
+          >
+            <ul className="flex flex-col items-center gap-5 py-5 text-sm font-medium text-gray-800">
+              <NavItem to="/" text="Home" location={location} />
+              <NavItem to="/products" text="Products" location={location} />
+              <NavItem to="/about" text="About us" location={location} />
+              <NavItem to="/contact" text="Contact" location={location} />
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }
 
 function NavItem({ to, text, location }) {
-const isActive =
-  (to === "/products" && (location.pathname.startsWith("/products") || location.pathname.startsWith("/product"))) ||
-  location.pathname === to;
+  const isActive =
+    (to === "/products" &&
+      (location.pathname.startsWith("/products") ||
+        location.pathname.startsWith("/product"))) ||
+    location.pathname === to;
+
   return (
     <li className="relative group">
       <Link
         to={to}
-        className={`${
-          isActive ? "text-green-600 font-bold" : "text-gray-800"
-        } hover:text-green-600`}
+        className={`transition font-medium ${
+          isActive ? "text-green-600" : "text-gray-700 hover:text-green-600"
+        }`}
       >
         {text}
       </Link>
       <div
-        className={`absolute left-0 top-6 h-0.5 transition-all duration-300 ${
-          isActive ? "w-full bg-green-600" : "w-0 group-hover:w-full bg-green-600"
+        className={`absolute left-0 -bottom-1 h-[2px] rounded transition-all duration-300 ${
+          isActive
+            ? "w-full bg-green-600"
+            : "w-0 bg-green-600 group-hover:w-full"
         }`}
       ></div>
     </li>
