@@ -46,31 +46,34 @@ export default function HeroSection() {
         </Link>
 
         {/* Social Icons */}
-        <div className="flex gap-4 text-md mt-6 ml-2 sm:ml-7">
-          <a
-            href="https://www.facebook.com/Mohamedzaherrr"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-green-700"
-          >
-            <FaFacebook />
-          </a>
-          <a
+        <div className="flex justify-center gap-4 text-md mt-6 ml-16">
+          
+          {/* <a
             href="https://www.instagram.com/mohamedd.zaher/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-700"
           >
             <FaInstagram />
+          </a> */}
+
+<a
+            href="https://www.facebook.com/profile.php?id=61579091995646&mibextid=wwXIfr&mibextid=wwXIfr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-green-700"
+          >
+            <FaFacebook />
           </a>
-          <a
+
+          {/* <a
             href="https://www.tiktok.com/@mohamedd.zaher"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-700"
           >
             <FaTiktok />
-          </a>
+          </a> */}
         </div>
       </div>
 

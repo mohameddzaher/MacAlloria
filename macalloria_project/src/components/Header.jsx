@@ -62,7 +62,7 @@ export default function Header() {
       </div>
 
       {/* Main Nav */}
-      <div className="bg-white/95 backdrop-blur-md shadow-sm flex justify-between items-center px-6 py-3 md:py-2 w-full top-[32px] relative">
+      <div className="bg-white/95 backdrop-blur-md shadow-sm flex justify-between items-center px-6 py-3 md:py-2 w-full top-[0px] relative">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <div className="relative w-28 h-10 md:w-36 md:h-12">

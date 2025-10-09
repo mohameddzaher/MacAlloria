@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 import bgImage from "../assets/bg4.jpg"; // غيّر الصورة دي على حسب اللي عندك
 
-import firstImg from "../assets/HAND PUSH TYPE.png";
-import secondImg from "../assets/1.png";
-import thirdImg from "../assets/Vita Serisi Asılır Tip Turbo Atomizer2.png";
+import firstImg from "../assets/tone.jpeg";
+import secondImg from "../assets/sone.jpeg";
+import thirdImg from "../assets/fone.jpeg";
 
 export default function FeaturedProducts() {
   const products = [
