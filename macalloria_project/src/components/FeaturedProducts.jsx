@@ -12,7 +12,7 @@ export default function FeaturedProducts() {
   const products = [
     {
       id: 1,
-      name: "Garden Sprayers",
+      name: "Field Sprayers",
       image: firstImg,
       rating: 5,
     },
